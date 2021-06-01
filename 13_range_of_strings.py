@@ -1,3 +1,3 @@
 my_range=range(1,21)
-new_range=list(str(my_range))
-print(new_range)
+print(list(map(str, my_range)))
+# The map function will change each int in the lsit to str(string)
