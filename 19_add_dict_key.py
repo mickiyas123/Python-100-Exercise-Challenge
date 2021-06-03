@@ -10,4 +10,4 @@ d['c']=3
 
 print(d)
 
-# we can add key and value to a dict by writing thd dictionary then the key and assign it the value we want
+# we can add key and value to a dict by writing thd dictionary then the key and assign it the value we want 
