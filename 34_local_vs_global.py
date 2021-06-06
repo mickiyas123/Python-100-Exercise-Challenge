@@ -8,7 +8,16 @@
 # This will print an error beacuse c is a local variable not a global one
 
 
+# def foo(): 
+#     c = 1 
+#     return c 
+# print(foo()) 
+
+
 def foo(): 
+    global c
     c = 1 
     return c 
-print(foo()) 
+foo() 
+print(c)
+# this is another way of sloving the exercise 
