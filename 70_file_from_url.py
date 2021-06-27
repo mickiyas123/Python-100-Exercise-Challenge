@@ -8,3 +8,12 @@
 # region of spacetime than an observer who remains still. Nevertheless, even the most rapid traveler will not be able
 # to interact with all of space. Typically, the observable universe is taken to mean the portion of the Universe that
 # is observable from our vantage point in the Milky Way.
+
+from os import WIFSTOPPED
+import requests
+
+r = requests.get('http://www.pythonhow.com/data/universe.txt')
+
+text = r.text
+print(text)
+
