@@ -7,3 +7,10 @@
 #         break
 #     print("Hi")
 
+while True:
+    print("Hello")
+
+    if 2 > 1:
+        pass
+    print("Hi")
+    # Using pass keyword it will pass to the next statment
