@@ -7,3 +7,17 @@
 # Hello
 # Hello
 # End of Loop
+
+import time
+
+i = 0
+
+while True:
+    i = i + 1
+    print("Hello")
+    time.sleep(i)
+    if i > 3:
+        print("End of Loop")
+        break
+    # This will print only on the condition of if
+
