@@ -7,3 +7,10 @@
 #         break
 #     print("Hi")
 
+while True:
+    print("Hello")
+
+    if 2 > 1:
+        continue
+    print("Hi")
+    # continue keyword will return it back to the main loop
