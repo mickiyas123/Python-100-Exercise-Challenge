@@ -10,11 +10,9 @@
 # terra
 
 
-
+d = dict(weather = "clima", earth = "terra", rain = "chuva") 
 def transalte(word):
-    d = dict(weather = "clima", earth = "terra", rain = "chuva") 
-    for word in d:
-        return d[word]
+    return d[word]
 print(transalte(input("Enter A Word: ")))
 
 
