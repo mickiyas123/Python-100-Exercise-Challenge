@@ -8,3 +8,8 @@
 # print(r.text[:100])
 
 # Executing the script will throw an error. Please fix something to make the program print out the expected output. You should not modify the code itself, but something else.
+
+import requests
+
+r = requests.get("http://www.pythonhow.com")
+print(r.text[:100])
