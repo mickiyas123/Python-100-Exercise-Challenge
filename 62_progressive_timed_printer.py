@@ -10,3 +10,13 @@
 # Hello
 # Hello
 # ...
+
+import time
+
+i = 0
+
+while True:
+    i = i + 1
+    print("Hello")
+    time.sleep(i)
+    # this loop will print the hello messgae edding 1 sec each time
