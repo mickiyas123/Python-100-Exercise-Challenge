@@ -8,3 +8,12 @@
 
 # Enter word: hello
 # We couldn't find that word!
+
+d = dict(weather = "clima", earth = "terra", rain = "chuva") 
+def translate(word):
+    return d[word]
+
+try:
+    print(translate(input("Enter a word: ").lower()))
+except:
+    print("We couldn't find that word!")
