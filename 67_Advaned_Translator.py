@@ -11,8 +11,7 @@
 
 d = dict(weather = "clima", earth = "terra", rain = "chuva") 
 def translate(word):
-    for key in d:
-        return d[key]
+    return d[word]
 
 try:
     print(translate(input("Enter a word: ")))
