@@ -3,3 +3,10 @@
 # Expected output: 
 
 # 47
+
+import requests
+
+t=requests.get('http://www.pythonhow.com/data/')
+
+text = t.text
+print(text.count('a'))
