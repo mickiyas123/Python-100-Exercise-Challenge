@@ -14,3 +14,15 @@
 # 14,22
 # 16,24
 
+import pandas as pd
+
+sampletext = pd.read_csv("sampledata.txt")
+sampletext2 = pd.read_csv("sampledata_x_2.txt")
+
+sampletext3 = pd.concat([sampletext, sampletext2])
+
+sampletext3.to_csv('sampletext3.txt',index=None) 
+
+
+
+
