@@ -8,7 +8,14 @@ password = ""
 
 for i in range (0,6):
     password+=random.choice(password_range)
-print(password)    
-    
+print(password)  
+
+
+
+# characters = "abcdefghijklmnopqrstuvwxyz01234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()?"
+# chosen = random.sample(characters, 6)
+# password = "".join(chosen)
+# print(password)
+
     
 
