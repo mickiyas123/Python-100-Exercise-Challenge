@@ -3,3 +3,15 @@
 # Expected output: 
 
 # We think you were born back in 1988
+
+from datetime import datetime
+
+year = int(datetime.now().strftime("%Y"))
+
+birth_date = int(input("Enter your age: "))
+
+age = year - birth_date
+
+print("We think you were born back in",str(age))
+
+
