@@ -7,6 +7,7 @@
 from datetime import datetime
 
 year = int(datetime.now().strftime("%Y"))
+# year = datetime.now().year
 
 birth_date = int(input("Enter your age: "))
 
