@@ -37,6 +37,7 @@ while True:
     if user_name in names:
         print("Username already exist") 
     else:
+        print("Username is fine")
         passwd = input("Enter Password: ")
         if not any(char.isdigit() for char in passwd):
             notes.append("Your password must contain atleast one digit")
