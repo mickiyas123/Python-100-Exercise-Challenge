@@ -19,5 +19,14 @@ for item in checklist:
         continue
     else:
         new_checklist.append(item)
-print(new_checklist)        
+print(new_checklist) 
+
+
+# checklist = ["Portugal", "Germany", "Munster", "Spain"]
+
+# with open("countries-clean.txt", "r") as file:
+#     content = file.readlines()
+
+# content = [i.rstrip('\n') for i in content]
+# checked = [i for i in content if i in checklist]
            
