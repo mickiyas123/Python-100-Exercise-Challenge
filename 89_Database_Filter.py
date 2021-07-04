@@ -1,0 +1,2 @@
+# Please download the database file database.db. The file contains a table with 50 country names along with their area in square km and population.
+# please use python to print out the countries that have an area of greater than 2,00,000
