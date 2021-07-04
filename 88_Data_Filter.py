@@ -7,3 +7,17 @@
 # Nigeria
 # China
 # Indonesia
+
+
+
+# import pandas as pd
+
+
+# countries = pd.read_csv('countries_by_area.txt')
+
+# countries.to_csv('countries_by_area.csv',index=None)
+
+# countries = pd.read_csv('countries_by_area.csv', usecols=['country','population_2013'])
+# countries = countries.sort_values('population_2013',ascending=False)
+# print(countries.head())
+
