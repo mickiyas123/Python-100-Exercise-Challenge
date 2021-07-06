@@ -14,3 +14,12 @@
 # http://www.stackoverflow.com
 # http://www.pythonhow.com
 
+
+with open("urls.txt" ,'r') as file:
+    content = file.readlines()
+
+with open("cleanurls.txt","w") as file:
+    for line in content:
+        lineRemove = line.replace("s","",1)
+        lineAddSlash = lineRemove[:6] + "/" + lineRemove[6:]
+        file.writelines(lineAddSlash)
