@@ -3,9 +3,6 @@
 # The program saves the changes and close when the user submits CLOSE
 
 
-from typing import Coroutine
-
-
 while True:
     user_inputs = input("Enter Values: ")
     if user_inputs == 'CLOSE':
