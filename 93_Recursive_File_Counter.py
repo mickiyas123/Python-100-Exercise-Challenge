@@ -3,3 +3,8 @@
 # Expected output: 
 
 # 3
+
+import glob
+
+files = glob.glob("subdirs/**/*.py",recursive=True)
+print(len(files))
