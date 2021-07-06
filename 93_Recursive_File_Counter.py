@@ -6,5 +6,8 @@
 
 import glob
 
+# using recursive to go through all the subdirs directories
 files = glob.glob("subdirs/**/*.py",recursive=True)
+
+
 print(len(files))
