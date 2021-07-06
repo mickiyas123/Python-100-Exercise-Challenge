@@ -3,3 +3,14 @@
 # Expected output: 
 
 # 2
+
+import glob
+
+count = 0
+
+file = glob.glob1("subdirs","*.py")
+
+print(len(file))
+
+
+ 
